@@ -1,7 +1,7 @@
 Hare And Hounds RESTful Web App
 =================
 
-This repository contains a hare and hounds game web application.  It is a complete web stack from frontend to server.
+This repository contains game of hare and hounds implemented using SparkJava.
 
 Setup
 -----
