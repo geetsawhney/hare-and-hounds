@@ -1,21 +1,12 @@
-Todo Demo Web App
+Hare And Hounds RESTful Web App
 =================
 
-This repository contains a small Todo list web application.  It is a complete web stack from frontend to server to database.
-
-Travis Status
--------------
-![](https://travis-ci.org/jhu-oose/todo.svg)
-
+This repository contains a hare and hounds game web application.  It is a complete web stack from frontend to server.
 
 Setup
 -----
 
 It depends only on Java 8 and Maven to build and run.
-
-For details on installing Java 8 and an IDE that includes Maven, see the [OOSE Tools] page.
-
-The lecture that goes with this code is the [OOSE Web Java Lecture].
 
 
 Usage
@@ -33,6 +24,3 @@ java -jar target/todoapp1-1.0-SNAPSHOT.jar
 ```
 
 Now simply point your browser to http://localhost:8080 to use the application.
-
-[OOSE Tools]:http://pl.cs.jhu.edu/oose/resources/tools.shtml
-[OOSE Web Java Lecture]: http://pl.cs.jhu.edu/oose/lectures/webjava.shtml
