@@ -1,6 +1,6 @@
 package com.oose2017;
 
-public class Turn {
+class Turn {
     String playerId;
     String fromX;
     String fromY;

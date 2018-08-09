@@ -1,18 +1,19 @@
-package com.oose2017;
+package com.oose2017.exceptions;
 
 import java.util.HashMap;
 
-public class IncorrectTurnException extends Exception {
+
+public class IncorrectJsonException extends Exception {
     /** the formatted response hash map.*/
     private HashMap<String, String> response;
     /**
      * the constructor for the exception
      * @param message the message with some context
      */
-    public IncorrectTurnException(String message) {
+    public IncorrectJsonException(String message) {
         super(message);
         this.response = new HashMap<>();
-        this.response.put("reason", "INCORRECT_TURN");
+        this.response.put("reason", "BAD_REQUEST");
     }
     /**
      * a getter for the hashmap

@@ -1,4 +1,4 @@
-package com.oose2017;
+package com.oose2017.exceptions;
 
 import java.util.HashMap;
 

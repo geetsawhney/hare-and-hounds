@@ -1,6 +1,8 @@
 package com.oose2017;
 
 
+import com.oose2017.exceptions.IncorrectTurnException;
+
 import java.util.*;
 
 public class Board {

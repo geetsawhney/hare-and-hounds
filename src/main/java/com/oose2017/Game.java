@@ -1,6 +1,10 @@
 
 package com.oose2017;
 
+import com.oose2017.exceptions.IllegalMoveException;
+import com.oose2017.exceptions.IncorrectTurnException;
+import com.oose2017.exceptions.InvalidPlayerException;
+
 import java.util.*;
 
 import java.lang.Math;
@@ -51,7 +55,7 @@ public class Game {
 	}
 
 	public HashMap<String,String> makeMove(Turn turnTaken) throws InvalidPlayerException,
-			IllegalMoveException, IncorrectTurnException {
+            IllegalMoveException, IncorrectTurnException {
 
 		int fromX=Integer.parseInt(turnTaken.fromX);
 		int fromY=Integer.parseInt(turnTaken.fromY);
