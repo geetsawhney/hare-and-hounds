@@ -3,7 +3,7 @@ Hare And Hounds
 
 A game of hare and hounds implemented using SparkJava based RESTful API.
 
-![alt text](https://github.com/geetsawhney/hare-and-hounds/6.png)
+![alt text](https://raw.githubusercontent.com/geetsawhney/hare-and-hounds/master/6.png)
 
 Setup
 -----
